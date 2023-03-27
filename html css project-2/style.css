@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f3ede5;
+}
+.nav{
+    padding: 20px 10%;
+    height: 15vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 2%;
+    font-weight: 500;
+    margin: 20px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    font-size: large;
+    color: purple;
+    text-decoration:underline;
+}
+nav ul img{
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main div p{
+    font-size: 12px;
+}
+.leftmain{
+    /*font-family: 'Climate Crisis', cursive;
+    font-family: 'Lato', sans-serif;*/
+   font-family: 'Oswald', sans-serif; 
+   width: 40%;
+   padding-left: 100px;
+}
+.leftmain h1{
+    font-size: 60px;
+}
+.leftmain p{
+   margin: 8% 0;
+}
+.leftmain button{
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: lightgreen;
+    color: black;
+}
+.rightmain{
+    width: 60%;
+    padding: 7%;
+}
+.rightmain div img{ 
+    width: 35%;
+    /* padding: 15px; */
+
+}
+.rightmain div{
+    margin-bottom: 20px;
+    margin-left: 15%;
+}
+.rightmain > img{
+    width: 64%;
+    margin-left: 15%;
+}
